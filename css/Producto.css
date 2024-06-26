@@ -1,0 +1,822 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.barra-de-anuncios{
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    background-color: whitesmoke;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(2, 3, 78);
+    box-shadow: 2PX 5PX 5px black;
+}
+
+.logo{
+    /* display: flex;
+    flex-direction: column;
+    align-content: CENTER;
+    margin: auto;
+    width: 200px; */
+    background-image: url(/assets/Logo/LOGO5.png);
+    width: 200px;
+    height: 50xp;
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 50px; 
+    margin-top: 3PX;
+}
+
+/* .logo h1 {
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    font-size: 20px;
+    
+} */
+
+/* .logo h2 {
+    color: aqua;
+    margin-left: 45PX;
+    margin-top: 0px;
+    font-size: 20px;
+} */
+
+.menu {
+    align-content: center;
+}
+
+.menu ul  {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    list-style: none;
+}
+
+.menu ul li a {
+   text-decoration: none;
+   color: rgb(219, 219, 219);
+   font-size: 18PX;
+}
+
+
+ /* SECCION DESTINOS */
+
+ .destinos {
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(125, 214, 255);
+    text-align: center;
+    align-content: center;
+    
+ }
+
+ .destino-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    height: 90%;
+    border: 2px solid black;
+    margin: auto;
+    border: 5px solid rgb(4, 2, 105)
+ }
+
+ /* .destino-img{
+    background-image: url(./IMAGENES/SEGURO-DE-VIAJE.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    background-position: left;
+ } */
+
+.imagen-del-destino{
+    width: 100%;
+    height: 100%;
+}
+
+ .destino-text{
+    /* border: 2px solid black; */
+    background-color: rgb(43, 46, 245);
+    border-right: 5px solid rgb(4, 2, 105);
+ }
+
+ .destino-text h2{
+    margin: 5px 0px 5px 0px;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px black;
+    /* border: 2px solid black; */
+  }
+
+  .destino-text h4{
+    margin: 1.5% 1% 0% 0%;
+    color: rgb(165, 237, 255);
+    text-shadow: 0px 0px 10px black;
+    /* border: 2px solid black; */
+    text-align: left;
+  }
+
+  .destino-box .destino-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1% 5% 5% 5%;
+  }
+
+  .destino-text h1 {
+    margin: 20px 0px 0px 0px;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px black;
+    /* border: 2px solid black; */
+  }
+
+  .destino-text p {
+    margin: 1.5% 1% 0% 0%;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px black;
+    /* border: 2px solid black; */
+    text-align: left;
+  }
+
+  .destino-text .vertical{
+    text-align: center;
+    margin: 0% 6%;
+  }
+
+  .destino-text .horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0% 0% 2% 0%;
+  }
+
+  .destino-text button {
+    width: 40%;
+    margin:  3% auto 0px auto;
+    padding: 10px 0px;
+    background-color: rgb(13, 2, 172);
+    border-radius: 5%; 
+    color: #ffffff;
+ }
+
+
+/* FIN SECCION DESTINOS */
+
+ 
+
+/* MENU - DESTINO */
+
+/* SECCION CATALOGO */
+
+.catalogo {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(43, 46, 245);
+    align-content: center;
+ }
+
+ .catalogo-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    width: 96%;
+    height: 100%;
+    border: 2px solid black;
+    margin: auto;
+ }
+
+ /* TARJETA VIAJES */
+
+ 
+ .producto-box{
+    width: 90%;
+    height: 99%;
+    margin: 20px 20px 0px 20px;
+    border: 2px solid black;
+
+ }
+
+ .producto-box:hover{
+    box-shadow: 0px 0px 15px black;
+ }
+
+ .tarjeta3{
+    height: 100%;
+    width: 100%;
+
+ }
+
+
+ .tarjeta3 img{
+    height: 50%;
+    width: 100%;
+
+}
+
+.tarjeta3 h1{
+    background-color: white;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 0px 0px rgb(2, 3, 78);
+    padding: 10px;
+    text-align: center;
+}
+
+.tarjeta3 p{
+   padding: 10px 10px;
+   color: aliceblue;
+   font-size: 15px;
+   text-align: center;
+}
+
+.tarjeta3 button{
+    width: 100%;
+    padding: 10px 40px;
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin: 0px 0px 0px 0px ;
+   
+ }
+
+
+
+/* FIN TARJETA - CATALOGO */
+
+
+/* FIN - MENU - DESTINO */
+
+/* FOOTER */
+
+.footer {
+    height: 50vh;
+    width: 100%;
+    padding: 50px 0 50px 0;
+    background-color: rgb(2, 3, 78);
+    /* border: 5px solid whitesmoke; */
+}
+
+.container{
+    height: 40vh;
+    width: 80%;  
+    margin: 0 auto;
+    /* border: 5px solid whitesmoke; */
+
+  }
+
+.footer-link {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    height: 80%;
+    /* border: 5px solid rgb(255, 0, 0); */
+}
+
+.link{
+    /* width: 300px; */
+    margin: 0px 10%;
+    /* border: 5px solid rgb(251, 255, 0); */
+}
+
+.link h3 {
+    font-size: 20px;
+    color: #d6d6E2;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.link a {
+    font-size: 15px;
+    color: #d6d6E2;
+    display: block;
+    margin-bottom: 20px;
+}
+
+link a:hover {
+    color: #00c3ff;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    text-align: top;
+}
+
+
+.socials a {
+    display: inline-block;
+    height: 55px;
+    width: 100xp;
+    /* background-color: #00c3ff; */
+    padding: 0px 15px 0px 10px;
+    margin: 0 25px 10px 0;
+    line-height: 60px;
+    border-radius: 10%;
+    color: #fff ;
+    font-size: 25px;
+}
+
+.socials a i {
+  text-align: bottom;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    background-color: transparent;
+    padding: 14px;
+    outline: none;
+    border: 2px solid #5f5f6e ;
+    font-size: 10px;
+    margin-bottom: 5px;
+    color: #B7B8BE ;
+}
+
+::placeholder {
+    color: #B7B8BE;
+}
+
+.btn {
+    background-color: #00c3ff;
+    color: #fff;
+    border: 0;
+}
+
+hr{
+    border: 1px solid #5f5f6e ;
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-text p{
+   margin: 0px 50px;
+   font-size: 15px;
+   color: #B7B8BE;
+}
+
+/* MEDIA QUERIES */
+
+/* HEIGHT */
+
+/* DESTINOS */
+
+
+@media (max-height:922px) {
+
+
+    .destinos {
+        width: 100%;
+        height: 100vh;
+        
+     }
+
+    
+}
+
+
+@media (max-height:826px) {
+
+    .destinos {
+        width: 100%;
+        height: 110vh !important;
+        
+     }
+     
+
+}
+
+
+@media(max-height:600px) {
+
+    .destinos{
+        height: 130vh !important;
+    }
+
+    .destino-box {
+        width: 90% !important;
+    }
+
+     .footer {
+        height: 70vh !important;
+     }
+
+     .footer-link {
+        height: 110% !important;
+     }
+}
+
+/* width */
+
+
+/* 1600 */
+
+@media (max-width:1600px) {
+
+    /* DESTINOS */
+
+    .destinos {
+        height: 80vh;
+     }
+
+     .destino-box{
+        grid-template-columns: 1fr 1fr;
+     }
+
+    
+      .destino-text .horizontal {
+        margin: 18px 0px 18px 0px;
+      }
+    
+      .destino-text .horizontal  li  {
+        font-size: 12px;
+      }
+    
+      .destino-text .horizontal  li a i {
+        font-size: 12px;
+      }
+    
+    /* FIN SECCION DESTINOS */
+    
+
+}
+
+
+/* 1328 */
+
+@media (max-width:1328px) {
+
+     /* DESTINOS */
+
+    .destinos {
+        height: 80vh;
+     }
+
+     .destino-text h2{
+        font-size: 18px;
+      }
+    
+      .destino-text h4{
+        font-size: 15px;
+      }
+    
+    
+      .destino-text h1 {
+        font-size: 23px;
+      }
+    
+      .destino-text p {
+        font-size: 14px;
+      }
+
+      /* FIN SECCION DESTINOS */
+    
+
+}
+
+/* 960 */
+
+
+@media (max-width:960px) {
+
+/*BARRA DE ANUNCIOS - NORMAL*/
+
+.barra-de-anuncios h3{
+    font-size: 15px;
+
+}
+
+/* BARRA DE NAVEGACION*/
+
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 110px;
+    width: 100%;
+    align-items: center;
+    padding: 8px 0px;
+    
+}
+
+.logo{
+    width: 180px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+
+.menu ul  {
+    width: 500px;
+}
+
+.menu ul li a {
+   font-size: 16px;
+}
+
+ /* SECCION DESTINOS */
+
+.destinos {
+    width: 100%;
+    height: 80vh;
+
+ }
+
+ .destino-box{
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    height: 90%;
+ }
+
+
+ .destino-text h2{
+    font-size: 14px;
+  }
+
+  .destino-text h4{
+    font-size: 11px;
+  }
+
+
+  .destino-text h1 {
+    font-size: 19px;
+  }
+
+  .destino-text p {
+    font-size: 11px;
+  }
+
+
+  .destino-text .horizontal {
+    margin: 15px 0px 10px 0px;
+  }
+
+  .destino-text .horizontal  li  {
+    font-size: 8px;
+  }
+
+  .destino-text .horizontal  li a i {
+    font-size: 10px;
+  }
+
+
+/* FIN SECCION DESTINOS */
+
+ 
+.footer {
+    height: 42vh;
+    width: 100%;
+    padding: 15px 0 50px 0;
+
+}
+
+.container{
+    height: 40vh;
+    width: 85%;  
+    margin: 0 auto;
+  }
+
+.footer-link {
+    grid-template-columns: 1fr 1fr  ;
+    height: 85%;
+}
+
+.footer-text {
+    grid-template-columns: 1fr 1fr ;
+}
+
+.link h3{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+.link a {
+    font-size: 11px;
+    margin: 1px 1px 1px 1px;
+}
+
+
+.socials {
+    margin-bottom: 10px;
+}
+
+.socials a {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    background-color: none;
+    margin: auto;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.footer-text {
+    margin-left: 30px;
+}
+
+.footer-text p{
+    font-size: 11px;
+    margin: 1px 1px 1px 1px;
+ }
+
+ .footer .link form input {
+    width: 80%;
+    height: 10px;
+ }
+}
+
+
+/* 480 px */
+
+@media (max-width:480px) {
+
+
+
+    .barra-de-anuncios h3{
+        font-size: 13px;
+    
+    }
+    
+    /* BARRA DE NAVEGACION*/
+    
+    
+    .navbar {
+        display: flex;
+        height: 200px;
+        width: 100%;
+    }
+    
+    .logo{
+        background-image: url(/assets/Logo/LOGO5.png);
+        width: 180px;
+        height: 50px;
+        margin-right: 50px;
+
+    }
+    
+    
+    .menu {
+        align-content: center;
+    }
+    
+    .menu ul  {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        list-style: none;
+
+    }
+
+    .menu ul li {
+        margin: 3px 0px 3px 0px ;
+        text-align: center;
+        background-color: rgba(26, 26, 26, 0.3); 
+        border-radius: 10%;
+    }
+    
+    .menu ul li a {
+       text-decoration: none;
+       color: whitesmoke;
+       font-size: 16px;
+    
+
+    }
+
+
+/* DESTINOS */
+
+    
+.destinos {
+    height: 110vh ;
+ }
+
+ .destino-box{
+    grid-template-columns: 1fr ;
+    grid-template-rows: 55% 45%;
+    width: 90%;
+    height: 90%;
+ }
+
+
+ .imagen-del-destino{
+    width: 100%;
+    height: 100%;
+}
+
+/* FIN SECCION DESTINOS */
+
+
+    .footer {
+        height: 70vh;
+        width: 100%;
+        padding: 10px 0 10px 0;
+        border: none;
+        
+    }
+    
+    .container{
+        height: 60vh;
+        width: 100%;  
+        border: none ;
+    
+      }
+    
+    .footer-link {
+        height: 60vh;
+        grid-template-columns: 1fr   ;
+        border: none ;
+      
+    }
+
+    .footer-text {
+        grid-template-columns: 1fr ;
+    
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        margin-bottom: 5px;
+        text-align: center;
+        margin: 10px 0px 10px 0px;
+    }
+    
+
+    .link {
+        text-align: center;
+        margin: 10px auto 0px auto;
+        padding: 0;
+        height: 50px;
+        width: 200px;
+    }
+    
+    
+    .socials a {
+        width: 100px;
+        height: 30px;
+        padding: 0px 0px 0px 0px;
+        font-size: 17px !important ;
+    }
+
+  
+
+    .link h3{
+        font-size: 15px;
+        margin: 2px;
+    }
+
+    .link a {
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .footer-text {
+        text-align: center;
+    }
+
+    .footer-text p{
+        font-size: 10px;
+     }
+
+     input{
+        padding: 2px;
+        font-size: 5px;
+        margin-bottom: 2px;
+        margin: 10px  auto 0px auto;
+    }
+    
+
+    .btn {
+        border: 0;
+       
+    }
+
+    
+
+}
+
+
+

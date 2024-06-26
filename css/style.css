@@ -1,0 +1,1910 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* SLICE - BARRA DE ANUNCIOS*/
+
+.barra-de-anuncios-slice {
+    height: 30px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+
+.barra-de-anuncios-slice .slider-anuncios {
+    width: 100%;
+    height: 30px;
+    margin: 0px auto 0;
+    overflow: hidden;
+
+}
+
+.barra-de-anuncios-slice .slider-anuncios ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide2 40s infinite alternate ease-in-out;
+
+}
+
+.barra-de-anuncios-slice .slider-anuncios li {
+    text-align: center;
+    list-style: none;
+    width: 100%;
+}
+
+.barra-de-anuncios-slice .slider-anuncios h3 {
+    width: 100%;
+    height: 30px;
+    object-fit: cover;
+}
+
+
+@keyframes slide2 {
+
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    95% {
+        margin-left: -300%;
+    }
+}
+
+
+
+/*BARRA DE ANUNCIOS - NORMAL*/
+
+
+.barra-de-anuncios {
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    background-color: whitesmoke;
+}
+
+/* BARRA DE NAVEGACION*/
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(2, 3, 78);
+    box-shadow: 2PX 5PX 5px black;
+}
+
+.logo {
+    /* display: flex;
+    flex-direction: column;
+    align-content: CENTER;
+    margin: auto;
+    width: 200px; */
+    background-image: url(/assets/Logo/LOGO5.png);
+    width: 200px;
+    height: 50xp;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 50px;
+    margin-top: 3PX;
+}
+
+/* .logo h1 {
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    font-size: 20px;
+    
+} */
+
+/* .logo h2 {
+    color: aqua;
+    margin-left: 45PX;
+    margin-top: 0px;
+    font-size: 20px;
+} */
+
+.menu {
+    align-content: center;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+    font-size: 18PX;
+}
+
+/* SLIDE - PUBLICTARIO - DEBAJO NAVBAR*/
+
+.anuncios-slice {
+    height: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+
+}
+
+
+.anuncios-slice .slider-anuncios2 {
+    width: 100%;
+    height: 50px;
+    margin: 0px auto 0;
+    overflow: hidden;
+
+}
+
+.anuncios-slice .slider-anuncios2 ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide2 40s infinite alternate ease-in-out;
+
+
+}
+
+.anuncios-slice .slider-anuncios2 li {
+    text-align: center;
+    list-style: none;
+    width: 100%;
+
+}
+
+.anuncios-slice .slider-anuncios2 h3 {
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+    align-content: center;
+    align-items: center;
+}
+
+
+@keyframes slide2 {
+
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    95% {
+        margin-left: -300%;
+    }
+}
+
+
+/* SECCION CATALOGO */
+
+.catalogo {
+    width: 100%;
+    height: 55vh;
+    background-color: rgb(43, 46, 245);
+    align-content: center;
+}
+
+.catalogo-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 95%;
+    height: 95%;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+
+/* TARJETA VIAJES */
+
+
+.producto-box {
+    width: 90%;
+    height: 95%;
+    margin: 20px 20px 0px 20px;
+    border: 2px solid black;
+
+}
+
+.producto-box a {
+    text-decoration: none;
+    color: rgb(2, 3, 78);
+}
+
+.producto-box:hover {
+    box-shadow: 0px 0px 15px black;
+}
+
+.tarjeta3 {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.tarjeta3 img {
+    height: 40%;
+    width: 100%;
+
+}
+
+.tarjeta3 h1 {
+    background-color: white;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 0px 0px rgb(2, 3, 78);
+    padding: 10px;
+    text-align: center;
+}
+
+.tarjeta3 p {
+    padding: 10px 10px;
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+}
+
+.tarjeta3 button {
+    width: 100%;
+    padding: 10px 40px;
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin: 0px 0px 0px 0px;
+
+}
+
+/* FIN TARJETA - CATALOGO */
+
+
+/* SECCION DESTINOS */
+
+.destinos {
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(125, 214, 255);
+    text-align: center;
+    align-content: center;
+    
+ }
+
+ .destino-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    height: 90%;
+    border: 5px solid rgb(4, 2, 105);
+    margin: auto;
+ }
+
+ /* .destino-img{
+    background-image: url(./IMAGENES/SEGURO-DE-VIAJE.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    background-position: left;
+ } */
+
+.imagen-del-destino{
+    width: 100%;
+    height: 100%;
+}
+
+ .destino-text{
+    /* border: 2px solid black; */
+    background-color: rgb(43, 46, 245);
+    border-right: 5px solid rgb(4, 2, 105);
+    
+ }
+
+ .destino-text h2{
+    margin: 5px 0px 5px 0px;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px black;
+    /* border: 2px solid black; */
+  }
+
+  .destino-text h4{
+    margin: 1.5% 1% 0% 0%;
+    color: rgb(165, 237, 255);
+    text-shadow: 0px 0px 10px black;
+    /* border: 2px solid black; */
+    text-align: left;
+  }
+
+  .destino-box .destino-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1% 5% 5% 5%;
+  }
+
+  .destino-text h1 {
+    margin: 20px 0px 0px 0px;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px black;
+    /* border: 2px solid black; */
+  }
+
+  .destino-text p {
+    margin: 1.5% 1% 0% 0%;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px black;
+    /* border: 2px solid black; */
+    text-align: left;
+  }
+
+  .destino-text .vertical{
+    text-align: center;
+    margin: 0% 6%;
+  }
+
+  .destino-text .horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0% 0% 2% 0%;
+  }
+
+  .destino-text button {
+    width: 40%;
+    margin:  3% auto 0px auto;
+    padding: 10px 0px;
+    background-color: rgb(13, 2, 172);
+    border-radius: 5%; 
+    color: #ffffff;
+ }
+
+
+/* FIN SECCION DESTINOS */
+
+
+
+
+
+
+
+
+/* SECCION SERVICIOS */
+
+.servicios {
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(125, 214, 255);
+    text-align: center;
+    align-content: center;
+    
+ }
+
+ .servicio-box{
+    display: grid;
+    grid-template-columns: 1.2fr 1.8fr;
+    width: 70%;
+    height: 95%;
+    border: 5px solid rgb(4, 2, 105);
+    /* box-shadow: 0px 0px 10px black; */
+    margin: auto;
+
+ }
+
+ /* .servicio-img{
+    background-image: url(./IMAGENES/SEGURO-DE-VIAJE.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    background-position: left;
+ } */
+
+.imagen-del-servicio{
+    width: 100%;
+    height: 100%;
+}
+
+ .servicio-text{
+    /* border: 2px solid black; */
+    background-color: rgb(43, 46, 245);
+    padding: 0px 2px 0px 2px;
+    border-left: 5px solid rgb(4, 2, 105);
+
+ }
+
+ .servicio-text h2{
+    margin: 5px 0px 0px 0px;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    /* border: 2px solid black; */
+  }
+
+  .servicio-text h4{
+    margin: 1.5% 1% 0% 1%;
+    color: rgb(152, 211, 250);
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    /* border: 2px solid black; */
+    /* text-align: left; */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+
+  }
+
+  .servicio-box .servicio-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .servicio-text h1 {
+    margin: 20px 0px 0px 0px;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px black;
+    /* border: 2px solid black; */
+  }
+
+  .servicio-text p {
+    font-size: 14.8px;
+    margin: 1.5% 1% 0% 1%;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px black;
+    /* border: 2px solid black; */
+    /* text-align: left; */
+  }
+
+  
+  .servicio-text p a {
+    margin: 1.5% 1% 0% 1%;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px black;
+    text-align: left;
+    
+  }
+
+  .servicio-text .vertical{
+    text-align: left;
+    margin: 0% 6%;
+  }
+
+  .servicio-text .horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0% 0% 2% 0%;
+  }
+
+  .servicio-text .horizontal {
+    margin: 18px 0px 10px 0px;
+    list-style: none;
+  }
+
+  .servicio-text .horizontal  li  {
+    font-size: 13px;
+    color: whitesmoke;
+    padding: 0% 2% 0% 2%;
+    /* border: 2PX SOLID black; */
+  }
+
+  .servicio-text .horizontal  li a i {
+    font-size: 15px;
+    color: whitesmoke;
+   
+
+  }
+
+  .servicio-text .horizontal ul li a i {
+    color: aquamarine;
+
+  }
+
+/* FIN SECCION SERVICIOS */
+
+
+
+/* MENU - SERVICIO */
+
+/* SECCION CATALOGO */
+
+
+
+
+
+
+
+
+
+
+
+/* SLICE*/
+
+.header-slice {
+    height: 600px;
+    width: 100%;
+    background-color: white;
+}
+
+.header-slice h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 50px;
+}
+
+.header-slice .slider-frame {
+    width: 100%;
+    height: 600px;
+    margin: 0px auto 0;
+    overflow: hidden;
+}
+
+.header-slice .slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.header-slice .slider-frame li {
+    list-style: none;
+    width: 100%;
+}
+
+.header-slice .slider-frame img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.header-slice .slider-frame .img-1 {
+    width: 100%;
+    height: 600px;
+    object-position: bottom;
+}
+
+
+.header-slice .slider-frame .img-3 {
+    width: 100%;
+    height: 600px;
+    object-position: top;
+}
+
+@keyframes slide {
+
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    95% {
+        margin-left: -300%;
+    }
+}
+
+
+
+/*FIN DEL SLICE*/
+
+
+/* BANNER DEL HEADER*/
+
+
+.encabezado-img {
+    background-image: url(/assets/imgGenerales/slice6.jpg);
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+.encabezado-box {
+    height: 63%;
+    width: 42%;
+    color: #fff;
+    background-color: rgb(6, 94, 209)
+        /*rgb(2, 3, 78)*/
+    ;
+    margin: 0px auto;
+    align-content: center;
+    text-align: center;
+    border: 5px solid black;
+    box-shadow: black 0px 0px 40px;
+}
+
+
+.encabezado-box h1 {
+    font-size: 50px;
+    padding: 5px 0px;
+    margin: 0px auto 25px;
+}
+
+.encabezado-box h2 {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 30px 0px 30PX 0PX;
+    margin: 0px auto 30PX;
+    box-shadow: 0PX 0PX 15PX rgb(43, 46, 245);
+    align-content: center;
+    align-items: center;
+}
+
+.encabezado-box P {
+    padding: 15px 0px 20PX 0PX;
+    margin: 0px auto 5PX;
+    font-size: 15px;
+}
+
+
+.encabezado-box .boton {
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    margin: 0px auto;
+    background: BLACK;
+    padding: 10PX 50PX 10PX 50PX;
+    box-shadow: 0PX 0PX 15PX rgb(43, 46, 245);
+
+}
+
+.encabezado-box .boton a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+
+.viajes-carrusel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 50vh;
+    width: 100%;
+    padding: 0px;
+    background-color: rgb(43, 46, 245);
+}
+
+/* TAJETA 1 */
+
+.tarjeta {
+    height: 500px;
+    width: 350px;
+    background-color: blue;
+    margin: 0px auto;
+    text-align: center;
+    border: 5px solid rgb(2, 3, 78);
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+.tarjeta img {
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.tarjeta h1 {
+    background-color: white;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 0px 5cap rgb(2, 3, 78);
+    padding: 10px;
+}
+
+.tarjeta p {
+    padding: 20px 10px;
+    color: aliceblue;
+}
+
+.tarjeta button {
+    padding: 15px 60px;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    border: 5px solid black;
+    box-shadow: 0px 0px 15px rgb(2, 3, 78);
+    border-radius: 20px;
+}
+
+/* TARJETA 2 */
+
+.tarjeta2 {
+    height: 400px;
+    width: 300px;
+    background-color: blue;
+    margin: 0px auto;
+    text-align: center;
+    border: 5px solid rgb(2, 3, 78);
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+.tarjeta2:hover {
+    box-shadow: 0px 0px 15px rgb(255, 255, 255);
+}
+
+.tarjeta2 img {
+    height: 150px;
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.tarjeta2 h1 {
+    background-color: white;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 0px 5cap rgb(2, 3, 78);
+    padding: 10px;
+}
+
+.tarjeta2 p {
+    padding: 10px 10px;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.tarjeta2 button {
+    padding: 10px 40px;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    border: 5px solid black;
+    box-shadow: 0px 0px 15px rgb(2, 3, 78);
+    border-radius: 20px;
+}
+
+/* SECCION PROMOCION */
+
+.viaje-promocion {
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(125, 214, 255);
+    text-align: center;
+    align-content: center;
+}
+
+.container-promocion {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    height: 550px;
+    width: 1650px;
+    border: 2px solid black;
+    margin: auto;
+    align-items: center;
+    background-color: rgb(2, 3, 78);
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+}
+
+.tarjeta-promo {
+    height: 500px;
+    width: 1000px;
+    border: 2px solid black;
+    margin: 0px 20px 0px 30px;
+    background-color: #00c3ff;
+    background-image: url(/assets/imgGenerales/TUCUMAN.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+.text-promo {
+    height: 500px;
+    width: 800px;
+    border: 2px solid black;
+    margin: 0px 0px 0px 30px;
+    background-color: #00c3ff;
+}
+
+.text-promo h1 {
+    margin-top: 30px;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px black;
+
+}
+
+.text-promo p {
+    margin: 30px 20px 0px 30px
+}
+
+.text-promo h2 {
+    margin-top: 20PX;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px black;
+}
+
+/* FOOTER */
+
+.footer {
+    height: 50vh;
+    width: 100%;
+    padding: 50px 0 50px 0;
+    background-color: rgb(2, 3, 78);
+    /* border: 5px solid whitesmoke; */
+}
+
+.container {
+    height: 40vh;
+    width: 80%;
+    margin: 0 auto;
+    /* border: 5px solid whitesmoke; */
+
+}
+
+.footer-link {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 80%;
+    /* border: 5px solid rgb(255, 0, 0); */
+}
+
+.link {
+    /* width: 300px; */
+    margin: 0px 10%;
+    /* border: 5px solid rgb(251, 255, 0); */
+}
+
+.link h3 {
+    font-size: 20px;
+    color: #d6d6E2;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.link ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.link ul li{
+    text-decoration: none;
+}
+
+.link a {
+    font-size: 15px;
+    color: #d6d6E2;
+    display: block;
+    margin-bottom: 20px;
+}
+
+link a:hover {
+    color: #00c3ff;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    text-align: top;
+}
+
+
+.socials a {
+    display: inline-block;
+    height: 55px;
+    width: 100xp;
+    /* background-color: #00c3ff; */
+    padding: 0px 15px 0px 10px;
+    margin: 0 25px 10px 0;
+    line-height: 60px;
+    border-radius: 10%;
+    color: #fff;
+    font-size: 25px;
+}
+
+.socials a i {
+    text-align: bottom;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: transparent;
+    padding: 14px;
+    outline: none;
+    border: 2px solid #5f5f6e;
+    font-size: 10px;
+    margin-bottom: 5px;
+    color: #B7B8BE;
+}
+
+::placeholder {
+    color: #B7B8BE;
+}
+
+.btn {
+    background-color: #00c3ff;
+    color: #fff;
+    border: 0;
+}
+
+hr {
+    border: 1px solid #5f5f6e;
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-text p {
+    margin: 0px 50px;
+    font-size: 15px;
+    color: #B7B8BE;
+}
+
+/* MEDIA QUERIES */
+
+/* HEIGHT */
+
+
+@media (max-height:922px) {
+
+    .destinos {
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    .servicios {
+        width: 100%;
+        height: 100vh;
+
+    }
+
+
+    .catalogo {
+        width: 100%;
+        height: 70vh;
+    }
+
+
+}
+
+
+@media (max-height:826px) {
+
+
+    .destinos {
+        width: 100%;
+        height: 110vh !important;
+
+    }
+
+
+    .servicios {
+        width: 100%;
+        height: 110vh !important;
+
+    }
+
+    .catalogo {
+        width: 100%;
+        height: 65vh !important;
+    }
+
+    .tarjeta3 p {
+        font-size: 12px !important;
+    }
+
+
+
+}
+
+/* @media(max-height:740px) {
+     .catalogo {
+        height: 200vh !important;
+     }
+} */
+
+
+@media(max-height:600px) {
+
+    .destinos {
+        height: 130vh !important;
+    }
+
+    .destino-box {
+        width: 90% !important;
+    }
+
+
+    .servicios {
+        height: 130vh !important;
+    }
+
+    .servicio-box {
+        width: 90% !important;
+    }
+
+    .catalogo {
+        height: 90vh !important;
+    }
+
+    .footer {
+        height: 70vh !important;
+    }
+
+    .footer-link {
+        height: 110% !important;
+    }
+}
+
+/* width */
+
+
+/* 1600 */
+
+@media (max-width:1600px) {
+
+    /* SECCION BANNER DEL HEADER */
+     
+      /* 
+    .encabezado-box {
+        height: 60%;
+        width: 70%;
+    } */
+
+
+    .encabezado-box h1 {
+        font-size: 48px;
+    }
+
+    .encabezado-box h2 {
+        font-size: 27px;
+    }
+
+    .encabezado-box P {
+        font-size: 13px;
+    }
+
+
+    .encabezado-box .boton {
+        font-size: 13px;
+    }
+
+    .barra-de-anuncios-slice h3 {
+        font-size: 20px;
+    }
+
+
+    /* DESTINOS */
+
+    .destinos {
+        height: 80vh;
+    }
+
+    .destino-box {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .destino-text .horizontal {
+        margin: 18px 0px 18px 0px;
+    }
+
+    .destino-text .horizontal li {
+        font-size: 12px;
+    }
+
+    .destino-text .horizontal li a i {
+        font-size: 12px;
+    }
+
+    /* FIN SECCION DESTINOS */
+
+
+    /* SERVICIOS */
+
+    .servicios {
+        height: 75vh;
+    }
+
+    .servicio-box {
+        grid-template-columns: 1.2fr 1.8fr;
+    }
+
+    .servicio-text .horizontal {
+        margin: 18px 0px 18px 0px;
+    }
+
+    .servicio-text .horizontal li {
+        font-size: 12px;
+    }
+
+    .servicio-text .horizontal li a i {
+        font-size: 12px;
+    }
+
+    /* FIN SECCION SERVICIOS */
+
+    /* SECCION CATALOGO */
+
+    .catalogo {
+        height: 50vh;
+    }
+
+    .catalogo-box {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        width: 96%;
+        height: 100%;
+    }
+
+    /* TARJETA VIAJES */
+
+    .producto-box {
+        width: 90%;
+        height: 93%;
+        margin: 20px 20px 0px 20px;
+        border: 2px solid black;
+
+    }
+
+
+    .tarjeta3 h1 {
+        font-size: 21px;
+    }
+
+    .tarjeta3 p {
+        font-size: 13px;
+    }
+
+    /* FIN SECCION - CATALOGO */
+
+
+}
+
+
+/* 1328 */
+
+@media (max-width:1328px) {
+
+    /* SECCION BANNER DEL HEADER */
+    /* 
+    .encabezado-box {
+        height: 60%;
+        width: 70%;
+    } */
+
+
+    .encabezado-box h1 {
+        font-size: 44px;
+    }
+
+    .encabezado-box h2 {
+        font-size: 23px;
+    }
+
+    .encabezado-box P {
+        font-size: 10px;
+    }
+
+
+    .encabezado-box .boton {
+        font-size: 10px;
+    }
+
+
+    /* DESTINOS */
+
+    .destinos {
+        height: 80vh;
+    }
+
+    .destino-text h2 {
+        font-size: 18px;
+    }
+
+    .destino-text h4 {
+        font-size: 15px;
+    }
+
+
+    .destino-text h1 {
+        font-size: 23px;
+    }
+
+    .destino-text p {
+        font-size: 14px;
+    }
+
+    /* FIN SECCION DESTINOS */
+
+    /* SECCION SERVICIOS */
+
+    .servicios {
+        height: 88vh;
+    }
+
+    /* SECCION CATALOGO */
+
+    .catalogo {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .tarjeta3 h1 {
+        font-size: 20px;
+    }
+
+
+
+
+}
+
+/* 960 */
+
+
+@media (max-width:960px) {
+
+    /*BARRA DE ANUNCIOS - NORMAL*/
+
+    .barra-de-anuncios h3 {
+        font-size: 15px;
+
+    }
+
+    .barra-de-anuncios-slice h3 {
+        font-size: 15px;
+    }
+
+
+    /* BARRA DE NAVEGACION*/
+
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 110px;
+        width: 100%;
+        align-items: center;
+        padding: 8px 0px;
+
+    }
+
+    .logo {
+        width: 180px;
+        height: 50px;
+        margin-right: 20px;
+    }
+
+
+    .menu ul {
+        width: 500px;
+    }
+
+    .menu ul li a {
+        font-size: 16px;
+    }
+
+    /* SECCION BANNER DEL HEADER */
+
+    .encabezado-box {
+        height: 60%;
+        width: 70%;
+    }
+
+    .encabezado-box h1 {
+        font-size: 44px;
+    }
+
+    .encabezado-box h2 {
+        font-size: 23px;
+    }
+
+    .encabezado-box P {
+        font-size: 10px;
+    }
+
+
+    .encabezado-box .boton {
+        font-size: 10px;
+    }
+
+    /* SECCION DESTINOS */
+
+    .destinos {
+        width: 100%;
+        height: 80vh;
+
+    }
+
+    .destino-box {
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+        height: 90%;
+    }
+
+
+    .destino-text h2 {
+        font-size: 14px;
+    }
+
+    .destino-text h4 {
+        font-size: 11px;
+    }
+
+
+    .destino-text h1 {
+        font-size: 19px;
+    }
+
+    .destino-text p {
+        font-size: 11px;
+    }
+
+
+    .destino-text .horizontal {
+        margin: 15px 0px 10px 0px;
+    }
+
+    .destino-text .horizontal li {
+        font-size: 8px;
+    }
+
+    .destino-text .horizontal li a i {
+        font-size: 10px;
+    }
+
+
+    /* FIN SECCION DESTINOS */
+
+    /* SECCION SERVICIO */
+
+    .servicios {
+        width: 100%;
+        height: 75vh;
+
+    }
+
+    .servicio-box {
+        grid-template-columns: 1.2fr 1.8fr;
+        width: 90%;
+        height: 90%;
+    }
+
+
+    .servicio-text h2 {
+        font-size: 15px;
+    }
+
+    .servicio-text h4 {
+        font-size: 12px;
+    }
+
+
+    .servicio-text h1 {
+        font-size: 20px;
+    }
+
+    .servicio-text p {
+        font-size: 12px;
+    }
+
+
+    .servicio-text .horizontal {
+        margin: 15px 0px 10px 0px;
+    }
+
+    .servicio-text .horizontal li {
+        font-size: 8px;
+    }
+
+    .servicio-text .horizontal li a i {
+        font-size: 10px;
+    }
+
+
+    /* FIN SECCION SERVICIOS */
+
+    /* SECCION CATALOGO */
+
+    .catalogo {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .catalogo-box {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 50% 50%;
+        width: 85%;
+        height: 98%;
+        align-items: center;
+    }
+
+    /* TARJETA VIAJES */
+
+
+    .producto-box {
+        width: 90%;
+        height: 95%;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .tarjeta3 {
+        height: 70%;
+    }
+
+    .tarjeta3 img {
+        height: 50%;
+    }
+
+    .tarjeta3 h1 {
+        font-size: 16px;
+    }
+
+    .tarjeta3 p {
+        font-size: 9px;
+    }
+
+    /* FIN TARJETA - CATALOGO */
+
+    .footer {
+        height: 42vh;
+        width: 100%;
+        padding: 15px 0 50px 0;
+    
+    }
+    
+    .container{
+        height: 40vh;
+        width: 85%;  
+        margin: 0 auto;
+      }
+    
+    .footer-link {
+        grid-template-columns: 1fr 1fr  ;
+        height: 85%;
+    }
+    
+    .footer-text {
+        grid-template-columns: 1fr 1fr ;
+    }
+    
+    .link h3{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    
+    .link a {
+        font-size: 11px;
+        margin: 1px 1px 1px 1px;
+    }
+    
+    
+    .socials {
+        margin-bottom: 10px;
+    }
+    
+    .socials a {
+        display: flex;
+        justify-content: center;
+        height: 30px;
+        width: 30px;
+        font-size: 15px;
+        background-color: none;
+        margin: auto;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    
+    .footer-text {
+        margin-left: 30px;
+    }
+    
+    .footer-text p{
+        font-size: 11px;
+        margin: 1px 1px 1px 1px;
+     }
+    
+     .footer .link form input {
+        width: 80%;
+        height: 10px;
+     }
+}
+
+
+/* 600 px */
+
+@media (max-width:600px) {
+
+    .tarjeta3 p {
+        font-size: 8px;
+    }
+
+
+}
+
+
+/* 480 px */
+
+@media (max-width:480px) {
+
+
+
+    .barra-de-anuncios h3 {
+        font-size: 13px;
+
+    }
+
+    /* BARRA DE NAVEGACION*/
+
+
+    .navbar {
+        display: flex;
+        height: 200px;
+        width: 100%;
+    }
+
+    .logo {
+        background-image: url(/assets/Logo/LOGO5.png);
+        width: 180px;
+        height: 50px;
+        margin-right: 50px;
+
+    }
+
+
+    .menu {
+        align-content: center;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        list-style: none;
+
+    }
+
+    .menu ul li {
+        margin: 3px 0px 3px 0px;
+        text-align: center;
+        background-color: rgba(26, 26, 26, 0.3);
+        border-radius: 10%;
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 16px;
+
+
+    }
+
+    /* SECCION BANNER DEL HEADER */
+
+    .encabezado-box {
+        height: 60%;
+        width: 90%;
+    }
+
+    .encabezado-box h1 {
+        font-size: 40px;
+    }
+
+    .encabezado-box h2 {
+        font-size: 20px;
+    }
+
+    .encabezado-box P {
+        font-size: 10px;
+    }
+
+
+    .encabezado-box .boton {
+        font-size: 10px;
+    }
+
+    /* SECCION DESTINOS */
+
+    .destinos {
+        height: 110vh;
+    }
+
+    .destino-box {
+        grid-template-columns: 1fr;
+        grid-template-rows: 55% 45%;
+        width: 90%;
+        height: 90%;
+    }
+
+
+    .imagen-del-destino {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* FIN SECCION DESTINOS */
+
+
+    /* SERVICIOS */
+
+
+    .servicios {
+        height: 110vh;
+    }
+
+    .servicio-box {
+        grid-template-columns: 1fr;
+        grid-template-rows: 30% 70%;
+        width: 90%;
+        height: 90%;
+    }
+
+
+    .imagen-del-servicio {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* SECCION CATALOGO */
+
+    .catalogo {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .catalogo-box {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 33% 33% 33%;
+        width: 90%;
+        height: 95%
+    }
+
+    /* TARJETA VIAJES */
+
+    .producto-box {
+        width: 90%;
+        height: 95%;
+    }
+
+    .tarjeta3 {
+        height: 70%;
+        width: 100%;
+    }
+
+
+    .tarjeta3 img {
+        height: 50%;
+        width: 100%;
+    }
+
+    .tarjeta3 h1 {
+        font-size: 20px;
+    }
+
+    .tarjeta3 p {
+        font-size: 9px;
+    }
+
+
+    /* FIN TARJETA - CATALOGO */
+
+    .footer {
+        height: 70vh;
+        width: 100%;
+        padding: 10px 0 10px 0;
+        border: none;
+
+    }
+
+    .container {
+        height: 60vh;
+        width: 100%;
+        border: none;
+
+    }
+
+    .footer-link {
+        height: 60vh;
+        grid-template-columns: 1fr;
+        border: none;
+
+    }
+
+    .footer-text {
+        grid-template-columns: 1fr;
+
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        margin-bottom: 5px;
+        text-align: center;
+        margin: 10px 0px 10px 0px;
+    }
+
+
+    .link {
+        text-align: center;
+        margin: 10px auto 0px auto;
+        padding: 0;
+        height: 50px;
+        width: 200px;
+    }
+
+
+    .socials a {
+        width: 100px;
+        height: 30px;
+        padding: 0px 0px 0px 0px;
+        font-size: 17px !important;
+    }
+
+
+
+    .link h3 {
+        font-size: 15px;
+        margin: 2px;
+    }
+
+    .link a {
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .footer-text {
+        text-align: center;
+    }
+
+    .footer-text p {
+        font-size: 10px;
+    }
+
+    input {
+        padding: 2px;
+        font-size: 5px;
+        margin-bottom: 2px;
+        margin: 10px auto 0px auto;
+    }
+
+
+    .btn {
+        border: 0;
+
+    }
+
+
+
+}
+
+
+@media (max-width:344px) {
+
+    .barra-de-anuncios-slice h3 {
+        font-size: 12px;
+    }
+
+    .catalogo {
+        width: 100%;
+        height: 150vh;
+    }
+
+
+    .catalogo-box {
+        grid-template-columns: 1fr;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        width: 90%;
+        height: 99%;
+    }
+
+    /* TARJETA VIAJES */
+
+    .producto-box {
+        width: 70%;
+        height: 90%;
+        margin: auto;
+
+    }
+
+
+    .tarjeta3 {
+        height: 70%;
+        width: 100%;
+
+    }
+
+
+    .tarjeta3 img {
+        height: 50%;
+        width: 100%;
+
+    }
+
+    .tarjeta3 h1 {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .tarjeta3 p {
+        font-size: 9px;
+    }
+
+    /* FIN TARJETA - CATALOGO */
+
+}

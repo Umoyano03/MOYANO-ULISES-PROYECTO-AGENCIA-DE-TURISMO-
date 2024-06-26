@@ -1,0 +1,983 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.barra-de-anuncios {
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    background-color: whitesmoke;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(2, 3, 78);
+    box-shadow: 2PX 5PX 5px black;
+}
+
+.logo {
+    /* display: flex;
+    flex-direction: column;
+    align-content: CENTER;
+    margin: auto;
+    width: 200px; */
+    background-image: url(/assets/Logo/LOGO5.png);
+    width: 200px;
+    height: 50xp;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 50px;
+    margin-top: 3PX;
+}
+
+/* .logo h1 {
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    font-size: 20px;
+    
+} */
+
+/* .logo h2 {
+    color: aqua;
+    margin-left: 45PX;
+    margin-top: 0px;
+    font-size: 20px;
+} */
+
+.menu {
+    align-content: center;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+    font-size: 18PX;
+}
+
+.viajes-carrusel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 50vh;
+    width: 100%;
+    padding: 0px 2% 0PX 2%;
+    background-color: rgb(151, 152, 255);
+}
+
+
+
+/* TARJETA 2 */
+
+.tarjeta2 {
+    height: 400px;
+    width: 300px;
+    background-color: blue;
+    margin: 0px auto;
+    text-align: center;
+    border: 5px solid rgb(2, 3, 78);
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+.tarjeta2 img {
+    height: 150px;
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.tarjeta2 h1 {
+    background-color: white;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 0px 5cap rgb(2, 3, 78);
+    padding: 10px;
+}
+
+.tarjeta2 p {
+    padding: 10px 10px;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.tarjeta2 button {
+    padding: 10px 40px;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    border: 5px solid black;
+    box-shadow: 0px 0px 15px rgb(2, 3, 78);
+    border-radius: 20px;
+}
+
+
+
+
+/* SECCION CATALOGO */
+
+.catalogo {
+    width: 100%;
+    height: 160vh;
+    background-color: rgb(43, 46, 245);
+    align-content: center;
+}
+
+.catalogo-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 95%;
+    height: 96%;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+
+
+/* TARJETA VIAJES */
+
+
+.producto-box {
+    width: 90%;
+    height: 95%;
+    margin: 20px 20px 0px 20px;
+    border: 2px solid black;
+
+}
+
+.producto-box a {
+    text-decoration: none;
+}
+
+.producto-box:hover {
+    box-shadow: 0px 0px 15px black;
+}
+
+
+.tarjeta3 {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+
+.tarjeta3 img {
+    height: 40%;
+    width: 100%;
+
+}
+
+.tarjeta3 h1 {
+    font-size: 25px;
+    background-color: white;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 0px 0px rgb(2, 3, 78);
+    padding: 10px;
+    text-align: center;
+}
+
+.tarjeta3 p {
+    padding: 10px 10px;
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+}
+
+.tarjeta3 .horizontal {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+}
+
+.tarjeta3 .horizontal li {
+    margin: 10px 15px 10px 15px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.tarjeta3 .horizontal li a {
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.tarjeta3 .horizontal li i {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+
+
+
+.tarjeta3 button {
+    width: 80%;
+    padding: 10px 40px;
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin: auto;
+
+}
+
+/* FIN TARJETA - CATALOGO */
+
+/* FOOTER */
+
+.footer {
+    height: 50vh;
+    width: 100%;
+    padding: 50px 0 50px 0;
+    background-color: rgb(2, 3, 78);
+    /* border: 5px solid whitesmoke; */
+}
+
+.container {
+    height: 40vh;
+    width: 80%;
+    margin: 0 auto;
+    /* border: 5px solid whitesmoke; */
+
+}
+
+.footer-link {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 80%;
+    /* border: 5px solid rgb(255, 0, 0); */
+}
+
+.link {
+    /* width: 300px; */
+    margin: 0px 10%;
+    /* border: 5px solid rgb(251, 255, 0); */
+}
+
+.link h3 {
+    font-size: 20px;
+    color: #d6d6E2;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.link ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.link ul li{
+    text-decoration: none;
+}
+
+.link a {
+    font-size: 15px;
+    color: #d6d6E2;
+    display: block;
+    margin-bottom: 20px;
+}
+
+link a:hover {
+    color: #00c3ff;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    text-align: top;
+}
+
+
+.socials a {
+    display: inline-block;
+    height: 55px;
+    width: 100xp;
+    /* background-color: #00c3ff; */
+    padding: 0px 15px 0px 10px;
+    margin: 0 25px 10px 0;
+    line-height: 60px;
+    border-radius: 10%;
+    color: #fff;
+    font-size: 25px;
+}
+
+.socials a i {
+    text-align: bottom;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: transparent;
+    padding: 14px;
+    outline: none;
+    border: 2px solid #5f5f6e;
+    font-size: 10px;
+    margin-bottom: 5px;
+    color: #B7B8BE;
+}
+
+::placeholder {
+    color: #B7B8BE;
+}
+
+.btn {
+    background-color: #00c3ff;
+    color: #fff;
+    border: 0;
+}
+
+hr {
+    border: 1px solid #5f5f6e;
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-text p {
+    margin: 0px 50px;
+    font-size: 15px;
+    color: #B7B8BE;
+}
+
+
+/* RESPONSIVE */
+
+/* 1600 */
+
+
+@media (max-width:1600px) {
+
+    /* SECCION CATALOGO */
+
+    .catalogo {
+        width: 100%;
+        height: 180vh;
+        background-color: rgb(43, 46, 245);
+        align-content: center;
+    }
+
+    .catalogo-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        width: 95%;
+        height: 95%;
+        border: 2px solid black;
+        margin: auto;
+    }
+
+    /* TARJETA VIAJES */
+
+
+    .producto-box {
+        width: 90%;
+        height: 95%;
+        margin: 20px 20px 0px 20px;
+        border: 2px solid black;
+
+    }
+
+    .producto-box:hover {
+        box-shadow: 0px 0px 15px black;
+    }
+
+    .tarjeta3 {
+        height: 100%;
+        width: 100%;
+
+    }
+
+
+    .tarjeta3 img {
+        height: 40%;
+        width: 100%;
+
+    }
+
+    .tarjeta3 h1 {
+        font-size: 20PX;
+        background-color: white;
+        border-bottom: 2px solid black;
+        box-shadow: 0px 0px 0px rgb(2, 3, 78);
+        padding: 10px;
+        text-align: center;
+    }
+
+    .tarjeta3 p {
+        padding: 10px 10px;
+        color: aliceblue;
+        font-size: 13px;
+        text-align: center;
+    }
+
+
+    .tarjeta3 button {
+        font-size: 13px;
+        width: 100%;
+        padding: 10px 40px;
+        color: rgb(0, 0, 0);
+        background-color: whitesmoke;
+        border: 1px solid black;
+        margin: 0px 0px 0px 0px;
+
+    }
+
+    /* FIN TARJETA - CATALOGO */
+
+
+}
+
+
+
+
+
+
+/* 1328 */
+
+@media (max-width:1328px) {
+
+    /* SECCION CATALOGO */
+
+    .catalogo {
+        width: 100%;
+        height: 200vh;
+        background-color: rgb(43, 46, 245);
+        align-content: center;
+    }
+
+    .catalogo-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 95%;
+        height: 95%;
+        border: 2px solid black;
+        margin: auto;
+    }
+
+    /* TARJETA VIAJES */
+
+
+    .producto-box {
+        width: 90%;
+        height: 95%;
+        margin: 20px 20px 0px 20px;
+        border: 2px solid black;
+
+    }
+
+    .producto-box:hover {
+        box-shadow: 0px 0px 15px black;
+    }
+
+    .tarjeta3 {
+        height: 100%;
+        width: 100%;
+
+    }
+
+
+    .tarjeta3 img {
+        height: 40%;
+        width: 100%;
+
+    }
+
+    .tarjeta3 h1 {
+        font-size: 20PX;
+        background-color: white;
+        border-bottom: 2px solid black;
+        box-shadow: 0px 0px 0px rgb(2, 3, 78);
+        padding: 10px;
+        text-align: center;
+    }
+
+    .tarjeta3 p {
+        padding: 10px 10px;
+        color: aliceblue;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .tarjeta3 button {
+        font-size: 12px;
+        width: 100%;
+        padding: 10px 40px;
+        color: rgb(0, 0, 0);
+        background-color: whitesmoke;
+        border: 1px solid black;
+        margin: 0px 0px 0px 0px;
+
+    }
+
+    /* FIN TARJETA - CATALOGO */
+
+
+}
+
+/* 960 */
+
+
+@media (max-width:960px) {
+
+    /*BARRA DE ANUNCIOS - NORMAL*/
+
+    .barra-de-anuncios h3 {
+        font-size: 15px;
+
+    }
+
+    /* BARRA DE NAVEGACION*/
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 110px;
+        width: 100%;
+        align-items: center;
+        padding: 8px 0px;
+        
+    }
+    
+    .logo{
+        width: 180px;
+        height: 50px;
+        margin-right: 20px;
+    }
+    
+    
+    .menu ul  {
+        width: 500px;
+    }
+    
+    .menu ul li a {
+       font-size: 16px;
+    }
+
+
+    /* SECCION CATALOGO */
+
+    .catalogo {
+        width: 100%;
+        height: 200vh;
+        background-color: rgb(43, 46, 245);
+        align-content: center;
+    }
+
+    .catalogo-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        width: 95%;
+        height: 99%;
+        border: 2px solid black;
+        margin: auto;
+    }
+
+    /* TARJETA VIAJES */
+
+
+    .producto-box {
+        width: 90%;
+        height: 90%;
+        margin: 20px 20px 0px 20px;
+        border: 2px solid black;
+
+    }
+
+    .producto-box:hover {
+        box-shadow: 0px 0px 15px black;
+    }
+
+    .tarjeta3 {
+        height: 100%;
+        width: 100%;
+
+    }
+
+
+    .tarjeta3 img {
+        height: 40%;
+        width: 100%;
+
+    }
+
+    .tarjeta3 h1 {
+        font-size: 20PX;
+        background-color: white;
+        border-bottom: 2px solid black;
+        box-shadow: 0px 0px 0px rgb(2, 3, 78);
+        padding: 10px;
+        text-align: center;
+    }
+
+    .tarjeta3 p {
+        padding: 10px 10px;
+        color: aliceblue;
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .tarjeta3 button {
+        font-size: 11px;
+        width: 100%;
+        padding: 10px 40px;
+        color: rgb(0, 0, 0);
+        background-color: whitesmoke;
+        border: 1px solid black;
+        margin: 0px 0px 0px 0px;
+
+    }
+
+    /* FIN TARJETA - CATALOGO */
+
+    .footer {
+        height: 42vh;
+        width: 100%;
+        padding: 15px 0 50px 0;
+
+    }
+
+    .container {
+        height: 40vh;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .footer-link {
+        grid-template-columns: 1fr 1fr;
+        height: 85%;
+    }
+
+    .footer-text {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .link h3 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+
+    .link a {
+        font-size: 11px;
+        margin: 1px 1px 1px 1px;
+    }
+
+
+    .socials {
+        margin-bottom: 10px;
+    }
+
+    .socials a {
+        display: flex;
+        justify-content: center;
+        height: 30px;
+        width: 30px;
+        font-size: 15px;
+        background-color: none;
+        margin: auto;
+        align-items: center;
+        text-decoration: none;
+    }
+
+
+    .footer-text {
+        margin-left: 30px;
+    }
+
+    .footer-text p {
+        font-size: 11px;
+        margin: 1px 1px 1px 1px;
+    }
+
+    .footer .link form input {
+        width: 80%;
+        height: 10px;
+    }
+
+
+}
+
+
+/* 600 */
+
+@media (max-width:600px) {
+
+
+
+    .catalogo {
+        width: 100%;
+        height: 350vh;
+        background-color: rgb(43, 46, 245);
+        align-content: center;
+    }
+
+    .catalogo-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 12.5%;
+        width: 95%;
+        height: 99%;
+        border: 2px solid black;
+        margin: auto;
+    }
+
+}
+
+
+/* 480 */
+
+@media (max-width:480px) {
+
+
+
+    .barra-de-anuncios h3 {
+        font-size: 13px;
+
+    }
+
+    /* BARRA DE NAVEGACION*/
+
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 220px;
+        width: 100%;
+        background-color: rgb(2, 3, 78);
+        box-shadow: 2PX 5PX 5px black;
+        border: 2px solid yellow;
+        align-items: center;
+    }
+
+    .logo {
+        background-image: url(/assets/Logo/LOGO5.png);
+        width: 180px;
+        height: 50px;
+        margin-right: 50px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 2px solid yellow;
+    }
+
+    .menu {
+        align-content: center;
+        border: 2px solid yellow;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 175px;
+        list-style: none;
+        border: 2px solid yellow;
+    }
+
+    .menu ul li {
+        margin: 3px 0px 3px 0px;
+        text-align: center;
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        color: rgb(219, 219, 219);
+        font-size: 16px;
+
+    }
+
+    /* CATALOGO */
+
+    .catalogo {
+        width: 100%;
+        height: 600vh;
+        background-color: rgb(43, 46, 245);
+        align-content: center;
+    }
+
+
+    .catalogo-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6.6%;
+        width: 95%;
+        height: 100%;
+        border: 2px solid black;
+        margin: auto;
+    }
+
+    /* TARJETA VIAJES */
+
+
+    .producto-box {
+        width: 60%;
+        height: 95%;
+        margin: 20px 20px 0px 20px;
+        border: 2px solid black;
+        margin: auto;
+
+    }
+
+    .producto-box:hover {
+        box-shadow: 0px 0px 15px black;
+    }
+
+    .tarjeta3 {
+        height: 100%;
+        width: 100%;
+
+    }
+
+
+    .tarjeta3 img {
+        height: 40%;
+        width: 100%;
+
+    }
+
+    .tarjeta3 h1 {
+        font-size: 20PX;
+        background-color: white;
+        border-bottom: 2px solid black;
+        box-shadow: 0px 0px 0px rgb(2, 3, 78);
+        padding: 10px;
+        text-align: center;
+    }
+
+    .tarjeta3 p {
+        padding: 10px 10px;
+        color: aliceblue;
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .tarjeta3 button {
+        font-size: 11px;
+        width: 100%;
+        padding: 10px 40px;
+        color: rgb(0, 0, 0);
+        background-color: whitesmoke;
+        border: 1px solid black;
+        margin: 0px 0px 0px 0px;
+
+    }
+
+    /* FIN TARJETA - CATALOGO */
+
+
+    .footer {
+        height: 70vh;
+        width: 100%;
+        padding: 10px 0 10px 0;
+        border: none;
+        
+    }
+    
+    .container{
+        height: 60vh;
+        width: 100%;  
+        border: none ;
+    
+      }
+    
+    .footer-link {
+        height: 60vh;
+        grid-template-columns: 1fr   ;
+        border: none ;
+      
+    }
+
+    .footer-text {
+        grid-template-columns: 1fr ;
+    
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        margin-bottom: 5px;
+        text-align: center;
+        margin: 10px 0px 10px 0px;
+    }
+    
+
+    .link {
+        text-align: center;
+        margin: 10px auto 0px auto;
+        padding: 0;
+        height: 50px;
+        width: 200px;
+    }
+    
+    
+    .socials a {
+        width: 100px;
+        height: 30px;
+        padding: 0px 0px 0px 0px;
+        font-size: 17px !important ;
+    }
+
+  
+
+    .link h3{
+        font-size: 15px;
+        margin: 2px;
+    }
+
+    .link a {
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .footer-text {
+        text-align: center;
+    }
+
+    .footer-text p{
+        font-size: 10px;
+     }
+
+     input{
+        padding: 2px;
+        font-size: 5px;
+        margin-bottom: 2px;
+        margin: 10px  auto 0px auto;
+    }
+    
+
+    .btn {
+        border: 0;
+       
+    }
+
+
+
+
+}
